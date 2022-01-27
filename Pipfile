@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+rope = "*"
+
+[packages]
+apprise = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+beautifulsoup4 = "*"
+requests = "*"
+python-magic = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
